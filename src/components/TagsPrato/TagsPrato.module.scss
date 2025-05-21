@@ -16,7 +16,7 @@
 div {
     margin: 10px;
   }
-  .tags__tipo {
+  &__tipo {
     align-items: center;
     border-radius: 2px;
     display: flex;
@@ -24,31 +24,31 @@ div {
     height: 40px;
     justify-content: center;
     padding: 10px 30px;
-    .tags__massas {
+    &__massas {
       background-color: #d73b3b;
       color: white;
     }
-    .tags__carnes {
+    &__carnes {
       background-color: #30201e;
       color: white;
     }
-    .tags__combos {
+    &__combos {
       background-color: #e6c864;
     }
-    .tags__veganos {
+    &__veganos {
       background-color: #80aa40;
     }
   }
-  .tags__porcao,
-  .tags__qtdpessoas,
-  .tags__valor {
+  &__porcao,
+  &__qtdpessoas,
+  &__valor {
     align-items: center;
     display: flex;
     font-size: 1.25rem;
     font-weight: bold;
     justify-content: center;
   }
-  .tags__valor {
+  &__valor {
     color: #d73b3b;
     font-size: 1.7rem;
   }
